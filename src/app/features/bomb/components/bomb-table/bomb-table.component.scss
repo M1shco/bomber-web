@@ -1,0 +1,39 @@
+.tabla_bombas {
+  border-collapse: collapse;
+  width: 80%;
+  background-color: #fff;
+  position: relative;
+
+  left: 10%;
+}
+
+.tabla_bombas th,
+.tabla_bombas td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.tabla_bombas tr:hover {
+  background-color: #f1f1f1;
+}
+.encendido {
+  background-color: green;
+  border: none;
+  padding: 8px;
+  border-radius: 1em;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+}
+.apagado {
+  background-color: red;
+  border: none;
+  padding: 8px;
+  border-radius: 1em;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+}
