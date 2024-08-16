@@ -1,10 +1,6 @@
 .tabla_bombas {
   border-collapse: collapse;
-  width: 80%;
   background-color: #fff;
-  position: relative;
-
-  left: 10%;
 }
 
 .tabla_bombas th,
@@ -36,4 +32,17 @@
   align-items: center;
   justify-content: space-between;
   color: white;
+}
+.table-container {
+  overflow: auto;
+  table {
+    thead {
+      tr {
+        th {
+          min-width: 150px;
+          background-color: gray;
+        }
+      }
+    }
+  }
 }

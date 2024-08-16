@@ -1,4 +1,4 @@
-<div>
+<div class="table-container">
   <table class="tabla_bombas">
     <thead>
       <tr>
@@ -11,30 +11,18 @@
       </tr>
     </thead>
     <tbody>
+      @for (bomb of bombs; track bomb) {
       <tr>
-        <th>#1</th>
-        <th>MANUAL</th>
-        <th>ENCENDIDO</th>
+        <th>{{ bomb.id }}</th>
+        <th>{{ bomb.control }}</th>
+        <th>{{ bomb.status }}</th>
         <th>ON</th>
         <th>OFF</th>
-        <th>2024</th>
+        <th>{{ bomb.lastStateChange }}</th>
       </tr>
-      <tr>
-        <th>#2</th>
-        <th>MANUAL</th>
-        <th>ENCENDIDO</th>
-        <th>ON</th>
-        <th>OFF</th>
-        <th>2024</th>
-      </tr>
-      <tr>
-        <th>#3</th>
-        <th>MANUAL</th>
-        <th>ENCENDIDO</th>
-        <th>ON</th>
-        <th>OFF</th>
-        <th>2024</th>
-      </tr>
+      }
+      <tr></tr>
     </tbody>
   </table>
 </div>
+<!-- <p>{{bombs|json}}</p> -->
