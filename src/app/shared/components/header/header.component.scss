@@ -1,64 +1,57 @@
+.nav {
+  font-family: "Prompt", sans-serif;
+  height: 50px;
+  background-color: rgba(72, 98, 116, 0.719);
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+img {
+  height: 30px;
+  width: 30px;
+}
+.hamburguesa {
+  position: relative;
+  left: 20px;
+  float: right;
+}
+.titulo {
+  font-size: 40px;
+}
+.logo {
+  position: relative;
 
-.nav{
-    font-family: "Prompt", sans-serif;
-    width: 99%;
-    height: 50px;
-    background-color: rgba(72, 98, 116, 0.719);
-    padding: 10px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    position: fixed;
-  }
-  img{
-    height:30px;
-    width:30px,
-    
-  }
-  .hamburguesa{
-    position: relative;
-    left: 20px;
-    float: right;
-    
-  }
-  .titulo{
-    font-size: 40px;
-  }
-  .logo{
-    position: relative;
-    
-    float: right;
-    right: 55px;
-  }
-  .botones{
-    
-    justify-content: space-between;
-    margin-left: auto;
-  }
-  .home{
-    position: relative;
-    
-    float: left;
-    font-size: 20px;
-    left: 40px;
-  }
-  .bombas{
-    position: relative;
-    float: left;
-    font-size: 20px;
-    left: 60px; 
-  }
-  .botones{
-  
-    justify-content: space-between;
-    margin-left: auto;
-  }
-  a{
-    color: black;
-    text-decoration: none;
-  }
-  button{
-    background-color: transparent;
-    border: none;
-    cursor: pointer;  
-  }
+  float: right;
+  right: 55px;
+}
+.botones {
+  justify-content: space-between;
+  margin-left: auto;
+}
+.home {
+  position: relative;
+
+  float: left;
+  font-size: 20px;
+  left: 40px;
+}
+.bombas {
+  position: relative;
+  float: left;
+  font-size: 20px;
+  left: 60px;
+}
+.botones {
+  justify-content: space-between;
+  margin-left: auto;
+}
+a {
+  color: black;
+  text-decoration: none;
+}
+button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
