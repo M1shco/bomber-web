@@ -8,7 +8,9 @@ import { Bomb } from '../../interfaces/bomb.interface';
   styleUrl: './bomb-table.component.scss',
 })
 export class BombTableComponent {
-  bombs: Bomb []=[
+
+   bombs: Bomb []=[
+  
     {
       id: '1',control:'manual', status:'encendido',lastStateChange:'2024/08/15 23:30'
     },
@@ -39,5 +41,6 @@ export class BombTableComponent {
     {
       id: '10',control:'manual', status:'encendido',lastStateChange:'2024/08/15 23:30'
     }
-  ]
+  ] 
+  
 }
